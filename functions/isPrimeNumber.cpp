@@ -9,7 +9,6 @@ bool isPrimeNumber(long long number){
             return false;
         }
     }
+    
     return true;
-
-
 }
