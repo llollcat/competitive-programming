@@ -3,7 +3,7 @@
 using namespace std;
 
 
-bool isPrimeNumber(long long number){
+bool is_prime_number(long long number){
     for (long long i= 2; i <= static_cast<long long>(sqrt(number)); ++i) {
         if (number % i == 0) {
             return false;
